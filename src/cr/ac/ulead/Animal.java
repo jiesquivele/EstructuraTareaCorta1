@@ -54,10 +54,13 @@ public abstract class Animal {
     public final void testTemplateMethod() {
         test1();
         test2();
+        test3();
     }
 
     public abstract void test1();
 
     public abstract void test2();
-
+    
+    public abstract void test3();
+    
 }
