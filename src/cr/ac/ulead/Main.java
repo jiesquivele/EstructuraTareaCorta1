@@ -1,6 +1,6 @@
 package cr.ac.ulead;
 
-public abstract class Main {
+public class Main {
 
     public static void main(String[] args) {
 
@@ -25,6 +25,7 @@ public abstract class Main {
         System.out.println("This fish has a " + fish.getTailSize() + " size tail.");
         fish.swim(fish.getFins());
         fish.blowBubbles();
+        fish.testTemplateMethod();
 
         System.out.println("\n");
 
@@ -38,6 +39,7 @@ public abstract class Main {
         System.out.println("This shark has a " + shark.getTailSize() + " size tail.");
         shark.startFeedingFrenzy();
         shark.eat(shark.getTeethType());
+        shark.testTemplateMethod();
 
         System.out.println("\n");
 
@@ -50,6 +52,7 @@ public abstract class Main {
         System.out.println("This manta ray has " + mantaRay.getFins() + " fins.");
         System.out.println("This manta ray has a " + mantaRay.getTailSize() + " tail.");
         mantaRay.eat(mantaRay.getTeethType());
+        mantaRay.testTemplateMethod();
 
         System.out.println("\n");
 
@@ -63,6 +66,7 @@ public abstract class Main {
         System.out.println("This orca has a " + orca.getTailSize() + " size tail.");
         orca.eat(orca.getTeethType());
         orca.burstWater();
+        orca.testTemplateMethod();
 
         System.out.println("\n");
 
@@ -76,6 +80,7 @@ public abstract class Main {
         System.out.println("This bluewhale has a " + blueWhale.getTailSize() + " size tail.");
         blueWhale.eat(blueWhale.getTeethType());
         blueWhale.burstWater();
+        blueWhale.testTemplateMethod();
 
         System.out.println("\n");
 
@@ -85,6 +90,7 @@ public abstract class Main {
         System.out.println("This starfish is a " + starFish.getSex() + ".");
         starFish.eat(starFish.getTeethType());
         starFish.shedArm();
+        starFish.testTemplateMethod();
 
         System.out.println("\n");
 
@@ -96,6 +102,7 @@ public abstract class Main {
         System.out.println("This lobster has a " + lobster.getTailSize() + " size tail.");
         lobster.eat(lobster.getTeethType());
         lobster.findCover();
+        lobster.testTemplateMethod();
 
         System.out.println("\n");
 

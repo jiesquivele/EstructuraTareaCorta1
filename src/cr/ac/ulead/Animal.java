@@ -1,6 +1,6 @@
 package cr.ac.ulead;
 
-public class Animal {
+public abstract class Animal {
 
     private Sex sex;
     private TailSize tailSize;
@@ -47,16 +47,17 @@ public class Animal {
         }
     }
 
-    public void sleep() {
-        System.out.println("It snores and snooores when it sleeps...");
-    }
-
     public void swim(int fins) {
         System.out.println("It swims really reeeally fast with its " + fins + " fins!");
     }
 
-    public void walk() {
-        System.out.println("Well... It walks!");
+    public final void testTemplateMethod() {
+        test1();
+        test2();
     }
+
+    public abstract void test1();
+
+    public abstract void test2();
 
 }
