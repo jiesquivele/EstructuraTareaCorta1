@@ -18,4 +18,8 @@ public class Echinoderm extends Animal {
         System.out.println("Echinoderm3, echinoderm3, echinoderm3...");
     }
 
+    public void test4() {
+        System.out.println("Echinoderm4, echinoderm4, echinoderm4...");
+    }
+
 }

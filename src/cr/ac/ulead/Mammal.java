@@ -18,4 +18,8 @@ public class Mammal extends Animal {
         System.out.println("Mammal3, mammal3, mammal3...");
     }
 
+    public void test4() {
+        System.out.println("Mammal4, mammal4, mammal4...");
+    }
+
 }

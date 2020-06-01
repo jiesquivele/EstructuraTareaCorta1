@@ -22,4 +22,8 @@ public class Fish extends Animal {
     public void test3() {
         System.out.println("Fish3, fish3, fish3...");
     }
+
+    public void test4() {
+        System.out.println("Fish4, fish4, fish4...");
+    }
 }

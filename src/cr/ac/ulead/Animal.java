@@ -55,6 +55,7 @@ public abstract class Animal {
         test1();
         test2();
         test3();
+        test4();
     }
 
     public abstract void test1();
@@ -62,5 +63,7 @@ public abstract class Animal {
     public abstract void test2();
     
     public abstract void test3();
+
+    public abstract void test4();
     
 }
