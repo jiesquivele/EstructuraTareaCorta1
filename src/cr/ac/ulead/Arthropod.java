@@ -21,4 +21,8 @@ public class Arthropod extends Animal {
     public void test4() {
         System.out.println("Arthropod4, arthropod4, arthropod4...");
     }
+
+    public void test5() {
+        System.out.println("A555");
+    }
 }
