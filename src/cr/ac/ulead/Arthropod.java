@@ -25,5 +25,4 @@ public class Arthropod extends Animal {
     public void test5() {
         System.out.println("A555");
     }
-
 }

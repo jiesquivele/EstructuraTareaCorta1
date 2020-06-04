@@ -30,5 +30,4 @@ public class Fish extends Animal {
     public void test5() {
         System.out.println("F555");
     }
-
 }

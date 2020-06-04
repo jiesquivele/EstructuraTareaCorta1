@@ -26,4 +26,8 @@ public class Echinoderm extends Animal {
         System.out.println("E555");
     }
 
+    public void test6() {
+        System.out.println("E666");
+    }
+
 }
