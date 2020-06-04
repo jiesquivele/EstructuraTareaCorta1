@@ -26,7 +26,4 @@ public class Arthropod extends Animal {
         System.out.println("A555");
     }
 
-    public void testForBranch1() {
-        System.out.println("ABranching...1");
-    }
 }

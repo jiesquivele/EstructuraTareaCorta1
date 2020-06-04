@@ -31,7 +31,4 @@ public class Fish extends Animal {
         System.out.println("F555");
     }
 
-    public void testForBranch1() {
-        System.out.println("FBranching...1");
-    }
 }

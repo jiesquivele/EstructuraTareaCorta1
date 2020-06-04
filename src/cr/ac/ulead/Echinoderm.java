@@ -26,8 +26,4 @@ public class Echinoderm extends Animal {
         System.out.println("E555");
     }
 
-    public void testForBranch1() {
-        System.out.println("EBranching...1");
-    }
-
 }

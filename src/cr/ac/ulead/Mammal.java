@@ -26,7 +26,4 @@ public class Mammal extends Animal {
         System.out.println("M555");
     }
 
-    public void testForBranch1() {
-        System.out.println("MBranching...1");
-    }
 }
