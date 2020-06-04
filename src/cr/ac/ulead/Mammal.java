@@ -25,4 +25,8 @@ public class Mammal extends Animal {
     public void test5() {
         System.out.println("M555");
     }
+
+    public void test6() {
+        System.out.println("M666");
+    }
 }
